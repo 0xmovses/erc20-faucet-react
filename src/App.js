@@ -9,12 +9,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 
 
 function App() {
+
   const Token = FCTToken;
 
   return (
     <div className="App">
     <div>
-    only compatible with the Goreli testnet 
+    only compatible with the Goreli testnet
     <Card.Body>
     <Container>
     <Row className="justify-content-md-center">
