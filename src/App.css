@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: rgba(252, 203, 250, 0.65);
+  height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: rgb(253, 204, 251);
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
