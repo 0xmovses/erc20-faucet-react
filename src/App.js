@@ -2,7 +2,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import TokenSend from './components/TokenSend.js'
 import Faucet from './components/Faucet.js'
-import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
 import FCTToken from './artifacts/contracts/FCTToken.sol/FCTToken.json'
 
 import { Container, Row, Col, Card } from 'react-bootstrap'
