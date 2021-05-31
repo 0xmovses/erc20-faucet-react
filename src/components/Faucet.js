@@ -8,7 +8,6 @@ const tokenAddress = "0xA4eE602c16C448Dc0D1fc38E6FC12f0d6C672Cbe"
 
 const Faucet = (props) => {
 
-  const [userAccount, setUserAccount] = useState();
   const [balance, setBalance] = useState()
   const [showBalance, setShowBalance] = useState(false)
 
@@ -31,7 +30,7 @@ const Faucet = (props) => {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const contract = new ethers.Contract(tokenAddress, props.tokenContract.abi, signer);
-      const faucet = contract.faucet(account[0], 100)
+      contract.faucet(account[0], 100);
     }
   }
     return (

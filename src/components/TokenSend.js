@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { ethers } from 'ethers'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import Message from './Message'
 
 const tokenAddress = "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512"
 
